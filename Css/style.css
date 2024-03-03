@@ -1,0 +1,307 @@
+/* =================================================== */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+    font-family: Circular;
+    src: url(./Circular-Std.ttf);
+}
+
+:root{
+    --Circular--font: Circular;
+    --DmSans--font: "DM Sans", sans-serif;
+    --backgorund--color: #60E1CB;
+    --Font--color: #292525;
+    --Black--color: #000000;
+    --white--color: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+/* ========================= commend css end ========================== */
+/* ===================================================================
+                         Nav bar start
+====================================================================== */
+.nav__bg{
+    background: var(--white--color)!important;
+}
+
+.nav__head{
+    padding: 15px 0;
+}
+
+.nav__items{
+    padding-left: 310px;
+}
+
+.nav__time{
+    column-gap: 20px;
+}
+
+.nav__ul{
+    color: var(--backgorund--color) !important;
+    font-family: var(--Circular--font);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+}
+
+.ui--nav{
+    color: var(--Font--color) !important;
+    font-weight: 900 !important;
+}
+
+.nav__btn{
+    width: 188.49px;
+    height: 50px;
+    border-radius: 40px;
+    background: #7BC0E3;
+    color: var(--white--color);
+    font-family: var(--Circular--font);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+    border: none;
+}
+
+/* ===================================================================
+                         Nav bar end
+====================================================================== */
+/* ===================================================================
+                         Footer part start
+====================================================================== */
+
+#footer__bg{
+    background-image: url(../Image/Backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer__haed{
+    padding: 160px 0 180px;
+}
+
+.footer__title{
+    color: var(--Font--color);
+    font-family: var(--Circular--font);
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+}
+
+.footer__text{
+    margin: auto;
+    width: 800px;
+    color: var(--Font--color);
+    font-family: var(--DmSans--font);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    opacity: 0.6;
+}
+
+.footer__end{
+    background: #E9FBF8;
+    height: 105px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+/* ===================================================================
+                         Footer part end
+====================================================================== */
+/* ===================================================================
+                         Our part start
+====================================================================== */
+#our__bg{
+    background: var(--white--color);
+    padding-bottom: 80px;
+}
+
+.ourFirst__head{
+    background: #E9FBF8;
+}
+
+.ourFirst__title{
+    color: var(--Font--color);
+    font-family: var(--Circular--font);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+}
+
+.ourFirst__text{
+    margin: 0 auto;
+    width: 761px;
+    color: var(--Black--color);
+    font-family: var(--DmSans--font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    opacity: 0.7;
+}
+
+.our__head{
+    background: #E9FBF8;
+}
+
+.our__one{
+    border-top: 7px solid var(--backgorund--color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ourOne__head{
+    padding: 85px 0 40px 20px;
+}
+
+.our__img{
+    position: relative;
+    z-index: 1;
+}
+
+.our__img::before {
+    position: absolute;
+    content: "";
+    top: -23px;
+    left: -11px;
+    width: 45.92px;
+    height: 45.92px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: var(--backgorund--color);
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.ourHead__title{
+    color: var(--Font--color);
+    font-family: var(--Circular--font);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+
+.ourHead__text{
+    color: var(--Black--color);
+    font-family: var(--DmSans--font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    width: 266px;
+    opacity: 0.7;
+}
+
+.ourHead__icon{
+    align-items: center;
+    color: #7BC0E3;
+    font-family: var(--DmSans--font);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+
+.ourHead__iconss{
+    font-size: 17px;
+    font-weight: 900;
+    padding-left: 8px;
+    color: #7BC0E3;
+    padding-top: 7px;
+}
+
+.ourhead__last{
+    padding-bottom: 100px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+/* ===================================================================
+                         Our part end
+====================================================================== */
+/* ===================================================================
+                         Work part Start
+====================================================================== */
+
+#work__bg{
+    background-image: url(../Image/group__hello.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.word__head{
+    padding: 160px 0;
+}
+
+.work__title{
+    color: var(--Black--color);
+    font-family: var(--Circular--font);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+}
+
+.work__text{
+    color: var(--Black--color);
+    font-family: var(--DmSans--font);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+
+.word__btn{
+    width: 411px;
+    height: 84px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border: none;
+    background: var(--Font--color);
+    color: var(--white--color);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
+
+/* ===================================================================
+                         Work part end
+====================================================================== */
