@@ -305,3 +305,152 @@ h1,h2,h3,h4,h5,h6,p,a,div,span,ul,ol{
 /* ===================================================================
                          Work part end
 ====================================================================== */
+/* ===================================================================
+                         Online part Start
+====================================================================== */
+
+#online__bg{
+    background: var(--white--color);
+}
+
+.online{
+    padding: 200px 0 100px;
+}
+
+.online__title{
+    color: var(--Font--color);
+    font-family:  var(--Circular--font);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+}
+
+.online__text{
+    color: var(--Font--color);
+    font-family: var(--DmSans--font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    opacity: 0.7;
+}
+
+.OnlineLast__title{
+    padding-left: 45px;
+    color: var(--backgorund--color);
+    font-family: var(--Circular--font);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.006em;
+}
+
+.online__img{
+    position: relative;
+    z-index: 1;
+}
+
+.online__img::before {
+    position: absolute;
+    content: url(../Image/musk__one.png);
+    top: -398px;
+    right: -46px;
+    z-index: -1;
+}
+
+/* ===================================================================
+                         Online part End
+====================================================================== */
+/* ===================================================================
+                         Blog part Start
+====================================================================== */
+
+#blog__bg{
+    background-image: url(../Image/Backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog{
+    padding: 110px 0;
+}
+
+.blogLeft__title{
+    color: var(--Black--color);
+    font-family: var(--Circular--font);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+}
+
+.blogLeft__text{
+    color: var(--Font--color);
+    font-family: var(--Circular--font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    padding-right: 25px;
+}
+
+.blogRitht__title{
+    color: var(--Font--color);
+    font-family: var(--Circular--font);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.blogRight__text{
+    padding-top: 6px;
+    color: var(--Font--color);
+    opacity: 0.4;
+    font-family: var(--Circular--font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    padding-left: 40px;
+}
+
+.blogRight__icons{
+    padding-top: 2px;
+    color: var(--Font--color);
+    padding-left: 10px;
+    font: 20px;
+}
+
+.blog__line{
+    background: var(--white--color);
+    height: 0.9px;
+    opacity: 0.5;
+}
+
+.blogLast__items{
+    color: var(--Font--color);
+    font-family: var(--Circular--font);
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+.blogLast__line{
+    color: var(--Font--color);
+    padding-left: 29px;
+    font-family: var(--Circular--font);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+/* ===================================================================
+                         Blog part End
+====================================================================== */
